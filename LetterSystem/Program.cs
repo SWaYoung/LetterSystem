@@ -9,8 +9,14 @@ namespace LetterSystem
         public static void Main()
         {
             Console.WriteLine("Simulator started!");
-            Console.WriteLine("Please enter path of CombinedLetters folder, for example '.\\CombinedLetters'");
+            Console.WriteLine("Please enter path of CombinedLetters folder, for example '..\\CombinedLetters'");
             string folderPath = Console.ReadLine();
+            if (!Directory.Exists(folderPath))
+            {
+                Console.WriteLine("CombinedLetters folder does not exist, press any button to exit");
+                Console.ReadLine();
+                return;
+            }
             while (true)
             {
                 Console.WriteLine("Please choose your action:");

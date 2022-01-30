@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LetterSystem/1.0.0": {
+        "dependencies": {
+          "AdmissionsOfficeFinancialAidOffice": "1.0.0",
+          "PrintingMailingServicesDepartment": "1.0.0"
+        },
+        "runtime": {
+          "LetterSystem.dll": {}
+        }
+      },
+      "AdmissionsOfficeFinancialAidOffice/1.0.0": {
+        "runtime": {
+          "AdmissionsOfficeFinancialAidOffice.dll": {}
+        }
+      },
+      "PrintingMailingServicesDepartment/1.0.0": {
+        "dependencies": {
+          "AdmissionsOfficeFinancialAidOffice": "1.0.0"
+        },
+        "runtime": {
+          "PrintingMailingServicesDepartment.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LetterSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdmissionsOfficeFinancialAidOffice/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PrintingMailingServicesDepartment/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

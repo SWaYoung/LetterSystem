@@ -79,7 +79,7 @@ This solution contains three part: AdmissionsOfficeFinancialAidOffice, PrintingM
         |---- ...
         ```
     - Notice that yyyymmdd is the date when letter combination app started!!!
-    - Sample files are created, so that CombinedLetters folder can be uploaded to Github
+    - Sample files are created, so that CombinedLetters folder can be uploaded to Github.
 
 ### LetterSystem
 It's where main function is located, for the details, see the Instruction part.
@@ -97,6 +97,7 @@ Once it starts, you can follow the instruction printed on the console.
     - By typing in "P", it wil call ProcessLetters() to process and combine letters.
   - Clean up (C): 
     - By typing in "C", it will delete everything newly created inside CombineLetters folder.
+    - There are already some sample letters in the CombinedLetters folder, run the Clean up first if you want.
   - End simulator and clean up (E): 
     - By typing in "E", it will delete everything newly created inside CombineLetters folder and end the app.
     - It's recommanded to end the app using this action.

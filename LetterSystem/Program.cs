@@ -70,6 +70,10 @@ namespace LetterSystem
             }
         }
 
+        /// <summary>
+        /// Clean up newly added files and directories.
+        /// </summary>
+        /// <param name="folderPath">path to CombinedLetters folder</param>
         public static void CleanUp(string folderPath)
         {
             string archiveFolder = Path.Combine(folderPath, "Archive");

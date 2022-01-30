@@ -1,0 +1,1 @@
+..\CombinedLetters\Input\Admission\20220102\admission-14705319.txt

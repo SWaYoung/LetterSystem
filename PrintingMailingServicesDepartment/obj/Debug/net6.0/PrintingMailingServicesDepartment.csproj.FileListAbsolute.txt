@@ -1,0 +1,15 @@
+D:\Projects\LetterSystem\PrintingMailingServicesDepartment\bin\Debug\net6.0\PrintingMailingServicesDepartment.deps.json
+D:\Projects\LetterSystem\PrintingMailingServicesDepartment\bin\Debug\net6.0\PrintingMailingServicesDepartment.dll
+D:\Projects\LetterSystem\PrintingMailingServicesDepartment\bin\Debug\net6.0\ref\PrintingMailingServicesDepartment.dll
+D:\Projects\LetterSystem\PrintingMailingServicesDepartment\bin\Debug\net6.0\PrintingMailingServicesDepartment.pdb
+D:\Projects\LetterSystem\PrintingMailingServicesDepartment\obj\Debug\net6.0\PrintingMailingServicesDepartment.csproj.AssemblyReference.cache
+D:\Projects\LetterSystem\PrintingMailingServicesDepartment\obj\Debug\net6.0\PrintingMailingServicesDepartment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\LetterSystem\PrintingMailingServicesDepartment\obj\Debug\net6.0\PrintingMailingServicesDepartment.AssemblyInfoInputs.cache
+D:\Projects\LetterSystem\PrintingMailingServicesDepartment\obj\Debug\net6.0\PrintingMailingServicesDepartment.AssemblyInfo.cs
+D:\Projects\LetterSystem\PrintingMailingServicesDepartment\obj\Debug\net6.0\PrintingMailingServicesDepartment.csproj.CoreCompileInputs.cache
+D:\Projects\LetterSystem\PrintingMailingServicesDepartment\obj\Debug\net6.0\PrintingMailingServicesDepartment.dll
+D:\Projects\LetterSystem\PrintingMailingServicesDepartment\obj\Debug\net6.0\ref\PrintingMailingServicesDepartment.dll
+D:\Projects\LetterSystem\PrintingMailingServicesDepartment\obj\Debug\net6.0\PrintingMailingServicesDepartment.pdb
+D:\Projects\LetterSystem\PrintingMailingServicesDepartment\bin\Debug\net6.0\AdmissionsOfficeFinancialAidOffice.dll
+D:\Projects\LetterSystem\PrintingMailingServicesDepartment\bin\Debug\net6.0\AdmissionsOfficeFinancialAidOffice.pdb
+D:\Projects\LetterSystem\PrintingMailingServicesDepartment\obj\Debug\net6.0\PrintingMailingServicesDepartment.csproj.CopyComplete

@@ -1,0 +1,9 @@
+D:\Projects\LetterSystem\Publish\LetterSystem.exe
+D:\Projects\LetterSystem\Publish\LetterSystem.dll
+D:\Projects\LetterSystem\Publish\LetterSystem.deps.json
+D:\Projects\LetterSystem\Publish\LetterSystem.runtimeconfig.json
+D:\Projects\LetterSystem\Publish\LetterSystem.pdb
+D:\Projects\LetterSystem\Publish\AdmissionsOfficeFinancialAidOffice.dll
+D:\Projects\LetterSystem\Publish\PrintingMailingServicesDepartment.dll
+D:\Projects\LetterSystem\Publish\AdmissionsOfficeFinancialAidOffice.pdb
+D:\Projects\LetterSystem\Publish\PrintingMailingServicesDepartment.pdb

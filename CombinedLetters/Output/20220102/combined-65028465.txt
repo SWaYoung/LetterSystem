@@ -1,0 +1,2 @@
+..\CombinedLetters\Input\Admission\20220101\admission-65028465.txt
+..\CombinedLetters\Input\Scholarship\20220101\scholarship-65028465.txt

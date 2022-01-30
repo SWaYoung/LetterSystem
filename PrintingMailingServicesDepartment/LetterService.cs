@@ -128,10 +128,10 @@ namespace PrintingMailingServicesDepartment
             //create report with reportTemp by updating sumarry line using letterCount
             int lineNumber = 0;
             string line = null;
-            using(StreamReader sr = File.OpenText(reportTemp))
-            using(StreamWriter sw = File.CreateText(report))
+            using (StreamReader sr = File.OpenText(reportTemp))
+            using (StreamWriter sw = File.CreateText(report))
             {
-                while ((line=sr.ReadLine()) != null)
+                while ((line = sr.ReadLine()) != null)
                 {
                     if (lineNumber == 3)
                     {

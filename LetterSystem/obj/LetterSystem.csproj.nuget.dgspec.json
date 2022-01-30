@@ -142,7 +142,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Projects\\LetterSystem\\AdmissionsOfficeFinancialAidOffice\\AdmissionsOfficeFinancialAidOffice.csproj": {
+                "projectPath": "D:\\Projects\\LetterSystem\\AdmissionsOfficeFinancialAidOffice\\AdmissionsOfficeFinancialAidOffice.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

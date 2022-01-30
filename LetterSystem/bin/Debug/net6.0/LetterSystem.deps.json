@@ -21,6 +21,9 @@
         }
       },
       "PrintingMailingServicesDepartment/1.0.0": {
+        "dependencies": {
+          "AdmissionsOfficeFinancialAidOffice": "1.0.0"
+        },
         "runtime": {
           "PrintingMailingServicesDepartment.dll": {}
         }

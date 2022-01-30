@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "PrintingMailingServicesDepartment/1.0.0": {
+        "dependencies": {
+          "AdmissionsOfficeFinancialAidOffice": "1.0.0"
+        },
         "runtime": {
           "PrintingMailingServicesDepartment.dll": {}
+        }
+      },
+      "AdmissionsOfficeFinancialAidOffice/1.0.0": {
+        "runtime": {
+          "AdmissionsOfficeFinancialAidOffice.dll": {}
         }
       }
     }
   },
   "libraries": {
     "PrintingMailingServicesDepartment/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdmissionsOfficeFinancialAidOffice/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

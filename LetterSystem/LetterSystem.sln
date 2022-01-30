@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetterSystem", "LetterSystem.csproj", "{8A39846E-0BE1-4AB2-B1DC-04B1967CB880}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdmissionsOfficeFinancialAidOffice", "..\AdmissionsOfficeFinancialAidOffice\AdmissionsOfficeFinancialAidOffice.csproj", "{002A9EB4-1A25-4041-84C7-042E072F0F12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdmissionsOfficeFinancialAidOffice", "..\AdmissionsOfficeFinancialAidOffice\AdmissionsOfficeFinancialAidOffice.csproj", "{002A9EB4-1A25-4041-84C7-042E072F0F12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingMailingServicesDepartment", "..\PrintingMailingServicesDepartment\PrintingMailingServicesDepartment.csproj", "{2BF61BDB-5D91-4353-B0E6-957FF3355C89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{002A9EB4-1A25-4041-84C7-042E072F0F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{002A9EB4-1A25-4041-84C7-042E072F0F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{002A9EB4-1A25-4041-84C7-042E072F0F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BF61BDB-5D91-4353-B0E6-957FF3355C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF61BDB-5D91-4353-B0E6-957FF3355C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF61BDB-5D91-4353-B0E6-957FF3355C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF61BDB-5D91-4353-B0E6-957FF3355C89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

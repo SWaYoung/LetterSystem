@@ -16,3 +16,5 @@ D:\Projects\LetterSystem\LetterSystem\obj\Debug\net6.0\LetterSystem.dll
 D:\Projects\LetterSystem\LetterSystem\obj\Debug\net6.0\ref\LetterSystem.dll
 D:\Projects\LetterSystem\LetterSystem\obj\Debug\net6.0\LetterSystem.pdb
 D:\Projects\LetterSystem\LetterSystem\obj\Debug\net6.0\LetterSystem.genruntimeconfig.cache
+D:\Projects\LetterSystem\LetterSystem\bin\Debug\net6.0\PrintingMailingServicesDepartment.dll
+D:\Projects\LetterSystem\LetterSystem\bin\Debug\net6.0\PrintingMailingServicesDepartment.pdb

@@ -1,4 +1,5 @@
 ﻿using AdmissionsOfficeFinancialAidOffice;
+using PrintingMailingServicesDepartment;
 using System.IO;
 
 //Console.WriteLine("Enter path");
@@ -47,12 +48,21 @@ using System.IO;
 //    Console.WriteLine(file.Substring(file.Length - 12, 8));
 //}
 
-try
-{
-    var office = new Office();
-    office.createFile("./CombinedLetters", 20220125.ToString(), 10, 5);
-}
-catch (Exception ex)
-{
-    Console.WriteLine(ex.Message);
-}
+//try
+//{
+//    var office = new Office();
+//    office.createFile("./CombinedLetters", 20220125.ToString(), 10, 5);
+//}
+//catch (Exception ex)
+//{
+//    Console.WriteLine(ex.Message);
+//}
+
+string file1 = "admission-19531219.txt";
+string file2 = "scholarship-19531219.txt";
+string file1path = Path.Combine("./CombinedLetters/Input/Admission/20220125", file1);
+string file2path = Path.Combine("./CombinedLetters/Input/Scholarship/20220125", file2);
+string resultfile = "combined-19531219.txt";
+
+var letterService = new LetterService();
+letterService.CombineTwoLetters(file1path, file2path, resultfile);

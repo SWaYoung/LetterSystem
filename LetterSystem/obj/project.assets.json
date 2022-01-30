@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/AdmissionsOfficeFinancialAidOffice.dll": {}
         }
+      },
+      "PrintingMailingServicesDepartment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PrintingMailingServicesDepartment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PrintingMailingServicesDepartment.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../AdmissionsOfficeFinancialAidOffice/AdmissionsOfficeFinancialAidOffice.csproj",
       "msbuildProject": "../AdmissionsOfficeFinancialAidOffice/AdmissionsOfficeFinancialAidOffice.csproj"
+    },
+    "PrintingMailingServicesDepartment/1.0.0": {
+      "type": "project",
+      "path": "../PrintingMailingServicesDepartment/PrintingMailingServicesDepartment.csproj",
+      "msbuildProject": "../PrintingMailingServicesDepartment/PrintingMailingServicesDepartment.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AdmissionsOfficeFinancialAidOffice >= 1.0.0"
+      "AdmissionsOfficeFinancialAidOffice >= 1.0.0",
+      "PrintingMailingServicesDepartment >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -55,6 +71,9 @@
           "projectReferences": {
             "D:\\Projects\\LetterSystem\\AdmissionsOfficeFinancialAidOffice\\AdmissionsOfficeFinancialAidOffice.csproj": {
               "projectPath": "D:\\Projects\\LetterSystem\\AdmissionsOfficeFinancialAidOffice\\AdmissionsOfficeFinancialAidOffice.csproj"
+            },
+            "D:\\Projects\\LetterSystem\\PrintingMailingServicesDepartment\\PrintingMailingServicesDepartment.csproj": {
+              "projectPath": "D:\\Projects\\LetterSystem\\PrintingMailingServicesDepartment\\PrintingMailingServicesDepartment.csproj"
             }
           }
         }

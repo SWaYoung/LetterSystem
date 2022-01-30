@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "AdmissionsOfficeFinancialAidOffice/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AdmissionsOfficeFinancialAidOffice.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AdmissionsOfficeFinancialAidOffice.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdmissionsOfficeFinancialAidOffice/1.0.0": {
+      "type": "project",
+      "path": "../AdmissionsOfficeFinancialAidOffice/AdmissionsOfficeFinancialAidOffice.csproj",
+      "msbuildProject": "../AdmissionsOfficeFinancialAidOffice/AdmissionsOfficeFinancialAidOffice.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "AdmissionsOfficeFinancialAidOffice >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\zihan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\LetterSystem\\LetterSystem\\LetterSystem.csproj",
+      "projectName": "LetterSystem",
+      "projectPath": "D:\\Projects\\LetterSystem\\LetterSystem\\LetterSystem.csproj",
+      "packagesPath": "C:\\Users\\zihan\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\LetterSystem\\LetterSystem\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\zihan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\Projects\\LetterSystem\\AdmissionsOfficeFinancialAidOffice\\AdmissionsOfficeFinancialAidOffice.csproj": {
+              "projectPath": "D:\\Projects\\LetterSystem\\AdmissionsOfficeFinancialAidOffice\\AdmissionsOfficeFinancialAidOffice.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

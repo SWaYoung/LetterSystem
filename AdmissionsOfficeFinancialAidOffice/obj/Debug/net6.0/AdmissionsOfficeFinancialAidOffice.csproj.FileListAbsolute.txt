@@ -1,0 +1,12 @@
+D:\Projects\LetterSystem\AdmissionsOfficeFinancialAidOffice\bin\Debug\net6.0\AdmissionsOfficeFinancialAidOffice.deps.json
+D:\Projects\LetterSystem\AdmissionsOfficeFinancialAidOffice\bin\Debug\net6.0\AdmissionsOfficeFinancialAidOffice.dll
+D:\Projects\LetterSystem\AdmissionsOfficeFinancialAidOffice\bin\Debug\net6.0\ref\AdmissionsOfficeFinancialAidOffice.dll
+D:\Projects\LetterSystem\AdmissionsOfficeFinancialAidOffice\bin\Debug\net6.0\AdmissionsOfficeFinancialAidOffice.pdb
+D:\Projects\LetterSystem\AdmissionsOfficeFinancialAidOffice\obj\Debug\net6.0\AdmissionsOfficeFinancialAidOffice.csproj.AssemblyReference.cache
+D:\Projects\LetterSystem\AdmissionsOfficeFinancialAidOffice\obj\Debug\net6.0\AdmissionsOfficeFinancialAidOffice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\LetterSystem\AdmissionsOfficeFinancialAidOffice\obj\Debug\net6.0\AdmissionsOfficeFinancialAidOffice.AssemblyInfoInputs.cache
+D:\Projects\LetterSystem\AdmissionsOfficeFinancialAidOffice\obj\Debug\net6.0\AdmissionsOfficeFinancialAidOffice.AssemblyInfo.cs
+D:\Projects\LetterSystem\AdmissionsOfficeFinancialAidOffice\obj\Debug\net6.0\AdmissionsOfficeFinancialAidOffice.csproj.CoreCompileInputs.cache
+D:\Projects\LetterSystem\AdmissionsOfficeFinancialAidOffice\obj\Debug\net6.0\AdmissionsOfficeFinancialAidOffice.dll
+D:\Projects\LetterSystem\AdmissionsOfficeFinancialAidOffice\obj\Debug\net6.0\ref\AdmissionsOfficeFinancialAidOffice.dll
+D:\Projects\LetterSystem\AdmissionsOfficeFinancialAidOffice\obj\Debug\net6.0\AdmissionsOfficeFinancialAidOffice.pdb

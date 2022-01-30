@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8a39846e-0be1-4ab2-b1dc-04b1967cb880": {
+      "ProjectGuid": "8a39846e-0be1-4ab2-b1dc-04b1967cb880",
+      "DisplayName": "LetterSystem",
+      "ColorIndex": 0
+    },
+    "002a9eb4-1a25-4041-84c7-042e072f0f12": {
+      "ProjectGuid": "002a9eb4-1a25-4041-84c7-042e072f0f12",
+      "DisplayName": "AdmissionsOfficeFinancialAidOffice",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

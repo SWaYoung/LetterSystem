@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetterSystem", "LetterSystem.csproj", "{8A39846E-0BE1-4AB2-B1DC-04B1967CB880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdmissionsOfficeFinancialAidOffice", "..\AdmissionsOfficeFinancialAidOffice\AdmissionsOfficeFinancialAidOffice.csproj", "{002A9EB4-1A25-4041-84C7-042E072F0F12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A39846E-0BE1-4AB2-B1DC-04B1967CB880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A39846E-0BE1-4AB2-B1DC-04B1967CB880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A39846E-0BE1-4AB2-B1DC-04B1967CB880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A39846E-0BE1-4AB2-B1DC-04B1967CB880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{002A9EB4-1A25-4041-84C7-042E072F0F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{002A9EB4-1A25-4041-84C7-042E072F0F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{002A9EB4-1A25-4041-84C7-042E072F0F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{002A9EB4-1A25-4041-84C7-042E072F0F12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {972335B5-28F9-4718-BCDA-A3465BE44009}
+	EndGlobalSection
+EndGlobal

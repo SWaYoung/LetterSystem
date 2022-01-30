@@ -73,9 +73,8 @@ namespace PrintingMailingServicesDepartment
                 {
                     summaryLine = sr.ReadLine();
                 }
-                letterCounter = int.Parse(summaryLine.Substring(summaryLine.Length - 1));
+                letterCounter = int.Parse(summaryLine.Substring(26));
             }
-
             //append report while combining letters
             using (StreamWriter sw = File.AppendText(reportTemp))
             {

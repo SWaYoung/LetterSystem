@@ -2,6 +2,123 @@
 using PrintingMailingServicesDepartment;
 using System.IO;
 
+namespace LetterSystem
+{
+    public static class Program
+    {
+        public static void Main()
+        {
+            Console.WriteLine("Simulator started!");
+            Console.WriteLine("Please enter path of CombinedLetters folder, for example '.\\CombinedLetters'");
+            string folderPath = Console.ReadLine();
+            while (true)
+            {
+                Console.WriteLine("Please choose your action:");
+                Console.WriteLine("Create Letters (A) | Combine letters (P) | Clean up (C) | End simulator and clean up (E) | End simulator without cleaning up (R)");
+                string action = Console.ReadLine();
+                if (action == "A")
+                {
+                    Console.WriteLine("Please enter current date, YYYYMMDD");
+                    string currentDate = Console.ReadLine();
+                    Console.WriteLine("Please enter number of admission letter");
+                    int aNumber = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Please enter number of scholarship letter, note that number of scholarship letters must be less than the number of admission");
+                    int sNumber = int.Parse(Console.ReadLine());
+                    try
+                    {
+                        var office = new Office();
+                        office.CreateLetters(folderPath, currentDate, aNumber, sNumber);
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+                }
+                else if (action == "P")
+                {
+                    Console.WriteLine("Please enter current date, YYYYMMDD");
+                    string currentDate = Console.ReadLine();
+                    try
+                    {
+                        var letterService = new LetterService();
+                        letterService.ProcessLetters(folderPath, currentDate);
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+                }
+                else if (action == "C")
+                {
+                    CleanUp(folderPath);
+                }
+                else if (action == "E")
+                {
+                    CleanUp(folderPath);
+                    return;
+                }
+                else if (action == "R")
+                {
+                    return;
+                }
+            }
+        }
+
+        public static void CleanUp(string folderPath)
+        {
+            string archiveFolder = Path.Combine(folderPath, "Archive");
+            string[] archiveSubFolders = Directory.GetDirectories(archiveFolder);
+            foreach (string subFolder in archiveSubFolders)
+            {
+                Directory.Delete(subFolder, true);
+            }
+
+            string outputFolder = Path.Combine(folderPath, "Output");
+            string[] outputSubFolders = Directory.GetDirectories(outputFolder);
+            foreach (string subFolder in outputSubFolders)
+            {
+                Directory.Delete(subFolder, true);
+            }
+
+            string inputAdmissionFolder = Path.Combine(folderPath, "Input", "Admission");
+            string inputScholarshipFolder = Path.Combine(folderPath, "Input", "Scholarship");
+            string[] inputAdmissionSubFolders = Directory.GetDirectories(inputAdmissionFolder);
+            string[] inputScholarshipSubFolders = Directory.GetDirectories(inputScholarshipFolder);
+            foreach (string subFolder in inputAdmissionSubFolders)
+            {
+                Directory.Delete(subFolder, true);
+            }
+            foreach (string subFolder in inputScholarshipSubFolders)
+            {
+                Directory.Delete(subFolder, true);
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //class TryFinallyTest
 //{
 //    static void ProcessString(string s)
@@ -38,25 +155,25 @@ using System.IO;
 //    Console.WriteLine(file.Substring(file.Length - 12, 8));
 //}
 
-try
-{
-    var office = new Office();
-    office.CreateLetters(".\\CombinedLetters", 20220125.ToString(), 10, 5);
-}
-catch (Exception ex)
-{
-    Console.WriteLine(ex.Message);
-}
+//try
+//{
+//    var office = new Office();
+//    office.CreateLetters(".\\CombinedLetters", 20220125.ToString(), 10, 5);
+//}
+//catch (Exception ex)
+//{
+//    Console.WriteLine(ex.Message);
+//}
 
-try
-{
-    var letterService = new LetterService();
-    letterService.ProcessLetters(".\\CombinedLetters", 20220126.ToString());
-}
-catch (Exception ex)
-{
-    Console.WriteLine(ex.Message);
-}
+//try
+//{
+//    var letterService = new LetterService();
+//    letterService.ProcessLetters(".\\CombinedLetters", 20220126.ToString());
+//}
+//catch (Exception ex)
+//{
+//    Console.WriteLine(ex.Message);
+//}
 
 //string file1 = "admission-19531219.txt";
 //string file2 = "scholarship-19531219.txt";

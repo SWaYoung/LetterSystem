@@ -79,6 +79,7 @@ This solution contains three part: AdmissionsOfficeFinancialAidOffice, PrintingM
         |---- ...
         ```
     - Notice that yyyymmdd is the date when letter combination app started!!!
+    - Sample files are created, so that CombinedLetters folder can be uploaded to Github
 
 ### LetterSystem
 It's where main function is located, for the details, see the Instruction part.

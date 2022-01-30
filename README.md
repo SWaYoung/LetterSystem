@@ -124,3 +124,7 @@ To test the code, you can simulate how it works in real life. Here I'll show thr
    - Choose action Combine Letters, with date 20220108.
    - ...
  - When exiting the app, it's recommanded to use action End simulator and clean up (E).
+  
+## Hours
+- Estimated hours: 24H
+- Actual hours: 15H

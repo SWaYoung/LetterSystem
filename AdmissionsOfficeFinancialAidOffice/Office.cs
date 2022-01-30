@@ -4,7 +4,15 @@ namespace AdmissionsOfficeFinancialAidOffice
 {
     public class Office
     {
-        public void createFile(string folderPath, string date, int aNumber, int sNumber)
+        /// <summary>
+        /// Generate letters for admission and scholarship
+        /// </summary>
+        /// <param name="folderPath">path of CombinedLetters folder</param>
+        /// <param name="date">current date, for example "20200125"</param>
+        /// <param name="aNumber">number of admission letters</param>
+        /// <param name="sNumber">number of scholarship letters</param>
+        /// <exception cref="Exception"></exception>
+        public void CreateLetters(string folderPath, string date, int aNumber, int sNumber)
         {
             //check path
             if (!Directory.Exists(folderPath))
@@ -39,7 +47,7 @@ namespace AdmissionsOfficeFinancialAidOffice
             {
                 // choose a random letter from admission and create scholarship letter
                 // extract the student ID
-                string studentID = extractID(admissionLetters[random.Next(aNumber)]);
+                string studentID = ExtractID(admissionLetters[random.Next(aNumber)]);
                 //create schoalrship letter
                 string scholarshipLetter = Path.Combine(scholarshipFolder, $"scholarship-{studentID}.txt");
                 using(StreamWriter sw = File.CreateText(scholarshipLetter))
@@ -50,8 +58,12 @@ namespace AdmissionsOfficeFinancialAidOffice
             }
         }
 
-        //take file path and return the student ID
-        public static string extractID(string file_path)
+        /// <summary>
+        /// take file path and return the student ID
+        /// </summary>
+        /// <param name="file_path">path of the file</param>
+        /// <returns>return student ID</returns>
+        public static string ExtractID(string file_path)
         {
             return file_path.Substring(file_path.Length-12, 8);
         }

@@ -2,16 +2,6 @@
 using PrintingMailingServicesDepartment;
 using System.IO;
 
-//Console.WriteLine("Enter path");
-////var path1 = @"D:\Projects\LetterSystem\CombinedLetters";
-//var path = @"" + Console.ReadLine();
-////bool result = path1.Equals(path);
-////Console.WriteLine(result);
-////Console.WriteLine(path1);
-////Console.WriteLine(path);
-//var office = new Office();
-//office.createFile(path);
-
 //class TryFinallyTest
 //{
 //    static void ProcessString(string s)
@@ -51,8 +41,8 @@ using System.IO;
 //try
 //{
 //    var office = new Office();
-//    office.createFile("./CombinedLetters", 20220125.ToString(), 10, 5);
-//}
+//    office.CreateLetters("./CombinedLetters", 20220125.ToString(), 10, 5);
+//} 
 //catch (Exception ex)
 //{
 //    Console.WriteLine(ex.Message);
